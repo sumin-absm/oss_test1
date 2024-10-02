@@ -3,7 +3,14 @@ function add(a,b){
 }
 
 function add_from(a,b){
-    return -1;
+    let count=0;
+    let i=a;
+    while(1){
+        count+=i;
+        if(i===b) break;
+        i++;
+    }
+    return count;
 }
 
 let in1=5;
