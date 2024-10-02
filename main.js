@@ -3,12 +3,9 @@ function add(a,b){
 }
 
 function add_from(a,b){
-    let count=0;
-    let i=a;
-    while(1){
-        count+=i;
-        if(i===b) break;
-        i++;
+    let count =0;
+    for(let i=a;i<=b;i++){
+        count += i;
     }
     return count;
 }
